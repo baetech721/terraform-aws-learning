@@ -1,6 +1,5 @@
 - name: Terraform Check
-
-    on:
+     on:
      push:
           branches:
 - main:
