@@ -12,11 +12,11 @@ on:
    contents: read
 
 jobs:
-    terraform:
-      name: Terraform Format Validate Plan
-      runs-on: ubuntu-latest
+  terraform:
+    name: Terraform Format Validate Plan
+    runs-on: ubuntu-latest
 
-      steps:
+    steps:
        - name: Checkout
          uses: actions/checkout@v4
 
