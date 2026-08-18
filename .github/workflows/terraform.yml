@@ -7,7 +7,6 @@ permissions:
 
 jobs:
   terraform:
-  name: Terraform Format Validate Plan
   runs-on: ubuntu-latest
 
   steps:
