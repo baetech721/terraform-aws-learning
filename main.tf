@@ -71,8 +71,6 @@ resource "aws_instance" "ubuntu" {
   associate_public_ip_address = true
 
   # Use standard CPU credits.
-  
-
   tags = {
     Name = "terraform-learning-instance"
   }
