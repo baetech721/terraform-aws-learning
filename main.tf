@@ -27,29 +27,28 @@ data "aws_security_group" "launch_wizard_3" {
 }
 
 # Existing Ubuntu 24.04 LTS AMD64/x86_64 AMI
-  data "aws_ami" "ubuntu_2404" {
-    most_recent = true
+data "aws_ami" "ubuntu_2404" {
+  most_recent = true
+    owners = ["099720109477"]
 
-      owners = ["099720109477"]
-
-        filter {
+      filter {
 name = "name"
   values = [
     "ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-amd64-server-*"
   ]
 }
 
-        filter {
+      filter {
 name = "architecture"
   values = ["x86_64"]
 }
 
-    filter {
+       filter {
 name = "virtualization-type"
   values = ["hvm"]
 }
 
-    filter {
+        filter {
 name = "root-device-type"
   values = ["ebs"]
 }
