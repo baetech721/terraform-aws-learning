@@ -1,5 +1,5 @@
 name: Terraform Check
-on: push
+on: [push, pull_request]
 
 permissions:
    id-token: write
