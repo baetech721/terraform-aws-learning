@@ -1,11 +1,5 @@
 name: Terraform Check
-on:
- push:
-    branches:
-      - main:
-    pull_request:
-     branches:
-      - main:
+on: [push, pull_request]
 
 permissions:
    id-token: write
