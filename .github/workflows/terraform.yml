@@ -13,8 +13,8 @@ permissions:
 
 jobs:
   terraform:
-   name: Terraform Format Validate Plan
-   runs-on: ubuntu-latest
+  name: Terraform Format Validate Plan
+  runs-on: ubuntu-latest
 
    steps:
        - name: Checkout
