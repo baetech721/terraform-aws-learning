@@ -12,7 +12,7 @@ on:
    contents: read
 
 jobs:
-   terraform:
+    terraform:
     name: Terraform Format Validate Plan
     runs-on: ubuntu-latest
 
