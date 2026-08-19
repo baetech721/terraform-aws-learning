@@ -18,7 +18,7 @@ data "aws_vpc" "existing" {
 
 # Existing subnet used by your working EC2
 data "aws_subnet" "existing" {
-  id = "subnet-0e2836e06b70a14c"
+  id = "subnet-0e28360e06b70a14c"
 }
 
 # Existing launch-wizard-3 security group
